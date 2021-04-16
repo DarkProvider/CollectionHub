@@ -1,0 +1,203 @@
+html,body {
+	height: 100%;
+}
+
+body.login-page {
+	background-image: linear-gradient(to right, #0A51A1 , #fff);
+	font-size: 14px;
+}
+
+body.verify-page{
+
+	background-image: linear-gradient(to right, #0A51A1 , #fff);
+	font-size: 14px;
+}
+
+body.thanks-page{
+
+	background-image: linear-gradient(to right, #0A51A1 , #fff);
+	font-size: 14px;
+}
+
+
+
+.errorclass {
+
+	color: red;
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.login-page .brand {
+	height: 200px;
+	width: 400px;
+	padding-right: 80px;
+	position: relative;
+	overflow: hidden;
+}
+
+.login-page .brand img {
+	width: 120%;
+}
+
+.login-page .card-wrapper {
+	width: 400px;
+}
+
+.login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.login-page .card.fat {
+	padding: 10px;
+}
+
+.login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.login-page .form-control {
+	border-width: 2.3px;
+}
+
+.login-page .form-group label {
+	width: 100%;
+}
+
+.login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.login-page .footer {
+	margin: 40px 0;
+	color: #fff;
+	text-align: center;
+}
+
+.registerdiv{
+
+	position: relative;
+	margin: auto;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.registerdiv h3{
+
+	color: #0A51A1;
+	size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 600px;
+
+
+}
+
+.registerdiv img{
+
+
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.verifydiv{
+
+	position: relative;
+	margin: auto;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.verifydiv h3{
+
+	color: #0A51A1;
+	size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 600px;
+
+
+}
+
+.verifydiv img{
+
+
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.redirectbutton{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.redirectbutton button {
+
+	color: white;
+	background-color: #0A51A1;
+	font-size: 20px;
+	display:flex;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin: 150px;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.2s;
+
+
+
+}
+
+.redirectbutton button:hover{
+
+	color:#0A51A1;
+	background-color:  white;
+
+
+}
+
+
+
+@media all and (max-width:30em){
+	.verifydiv button{
+	display: block;
+	margin: 0.4em auto;
+		}
+	} 
+@media screen and (max-width: 425px) {
+	.login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.login-page .card.fat {
+		padding: 0;
+	}
+
+	.login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
